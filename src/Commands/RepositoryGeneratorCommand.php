@@ -11,7 +11,7 @@ class RepositoryGeneratorCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'pmk:repository {name : Class (singular) for example User}';
+    protected $signature = 'tropa:repo {name : Class (singular) for example User}';
 
     /**
      * The console command description.
