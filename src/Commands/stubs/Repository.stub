@@ -1,0 +1,91 @@
+<?php namespace App\Http\Repo;
+
+use App\Http\Repo\RepositoryContract;
+
+class {{RepositoryName}}Repository implements RepositoryContract
+{
+    /**
+     * Returns all records from Model
+     *
+     * @var array $columns
+     */
+    public function all($columns = array('*'))
+    {
+
+    }
+
+    /**
+     * Returns a Model by Id, can also select columns
+     *
+     * @var integer $id
+     * @var array $columns
+     */
+    public function find($id, $columns = array('*'))
+    {
+
+    }
+
+    /**
+     * Returns a Model by a specific field, can also select columns
+     *
+     * @var string $field
+     * @var any $value
+     * @var array $columns
+     */
+    public function findBy($field, $value, $columns = array('*'))
+    {
+
+    }
+
+    /**
+     * Returns all where criteria
+     *
+     * @var array $where
+     * @var array $columns
+     */
+    public function allWhere($where, $columns = array('*'))
+    {
+
+    }
+
+    public function forSelect($order = 'id', $label = 'name', $id = 'id')
+    {
+
+    }
+
+    public function paginate($perPage = 15, $columns = array('*'))
+    {
+
+    }
+
+    /**
+     * Stores
+     *
+     * @var array $data
+     */
+    public function create(array $data)
+    {
+
+    }
+
+    /**
+     * Updates
+     *
+     * @var array $data
+     */
+    public function update(array $data, $id)
+    {
+
+    }
+
+    /**
+     * Deletes
+     *
+     * @var integer $id
+     */
+    public function delete($id)
+    {
+
+    }
+
+}
